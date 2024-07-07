@@ -15,12 +15,12 @@ The system comprises the following key entities:
 - Cast
 - Recommendations
 ## Key Features
-- User Management: Detailed user profiles with subscription tracking
-- Content Management: Extensive content cataloging with metadata
-- Subscription Plans: Flexible plan management with varying durations and device limits
-- Payment Processing: Secure payment tracking and management
-- Watch History & Recommendations: Personalized user experience through watch history tracking and content recommendations
-- Device Management: Multi-device support for each user
-- Watchlist Functionality: Allows users to save content for later viewing
-  
+- **User Management:** Detailed user profiles with subscription tracking
+- **Content Management:** Extensive content cataloging with metadata
+- **Subscription Plans:** Flexible plan management with varying durations and device limits
+- **Payment Processing:** Secure payment tracking and management
+- **Watch History & Recommendations:** Personalized user experience through watch history tracking and content recommendations
+- **Device Management:** Multi-device support for each user
+- **Watchlist Functionality:** Allows users to save content for later viewing
+
 ❗ If you find this repository helpful, please consider giving it a ⭐. Thanks! ❗
