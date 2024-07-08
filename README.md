@@ -26,8 +26,8 @@ The system comprises the following key entities:
 1. Obtain the project files:
    - Option A: Clone the repository (if you have Git installed):
      ```
-     git clone https://github.com/yourusername/StreamSage.git
-     cd StreamSage
+     git clone https://github.com/Yashraj-Muthyapwar/OTT-Management-System.git
+     cd OTT-Management-System
      ```
    - Option B: Download the SQL file directly from the GitHub repository
 
