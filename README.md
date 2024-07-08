@@ -23,6 +23,14 @@ The system comprises the following key entities:
 - **Device Management:** Multi-device support for each user
 - **Watchlist Functionality:** Allows users to save content for later viewing
 ## Deployment 
+1. Obtain the project files:
+   - Option A: Clone the repository (if you have Git installed):
+     ```
+     git clone https://github.com/yourusername/StreamSage.git
+     cd StreamSage
+     ```
+   - Option B: Download the SQL file directly from the GitHub repository
+
 ## Feedback
 If you have any feedback, please reach out to us at muthyapwaryashraj2525@gmail.com. 
 #### ❗If you find this repository helpful, please consider giving it a ⭐. Thanks! ❗
