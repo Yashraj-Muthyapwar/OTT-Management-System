@@ -22,5 +22,6 @@ The system comprises the following key entities:
 - **Watch History & Recommendations:** Personalized user experience through watch history tracking and content recommendations
 - **Device Management:** Multi-device support for each user
 - **Watchlist Functionality:** Allows users to save content for later viewing
-
+## Feedback
+If you have any feedback, please reach out to us at muthyapwaryashraj2525@gmail.com
 ❗ If you find this repository helpful, please consider giving it a ⭐. Thanks! ❗
