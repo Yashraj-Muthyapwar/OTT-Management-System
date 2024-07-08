@@ -24,13 +24,30 @@ The system comprises the following key entities:
 - **Watchlist Functionality:** Allows users to save content for later viewing
 ## Deployment 
 1. Obtain the project files:
-   - Option A: Clone the repository (if you have Git installed):
+   - **Option A:** Clone the repository (if you have Git installed):
      ```
      git clone https://github.com/Yashraj-Muthyapwar/OTT-Management-System.git
      cd OTT-Management-System
      ```
-   - Option B: Download the SQL file directly from the GitHub repository
+   - **Option B:** Download the SQL file directly from the GitHub repository
+2. Set up the database:
+   - Open a terminal or command prompt
+   - Log in to MySQL:
+     ```
+     mysql -u root -p
+     ```
+     (Enter your MySQL root password when prompted)
+   
+   - Create the database:
+     ```sql
+     CREATE DATABASE ott_management;
+     USE ott_management;
+     ```
 
+   - Exit MySQL:
+     ```
+     exit;
+     ```
 ## Feedback
 If you have any feedback, please reach out to us at muthyapwaryashraj2525@gmail.com. 
 #### ❗If you find this repository helpful, please consider giving it a ⭐. Thanks! ❗
