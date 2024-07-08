@@ -37,17 +37,43 @@ The system comprises the following key entities:
      mysql -u root -p
      ```
      (Enter your MySQL root password when prompted)
-   
    - Create the database:
      ```sql
      CREATE DATABASE ott_management;
      USE ott_management;
      ```
-
    - Exit MySQL:
      ```
      exit;
      ```
+3. Import the database schema:
+   - In the terminal, navigate to the directory containing OTT_Management.sql
+   - Run the following command:
+     ```
+     mysql -u root -p ott_management < OTT_Management.sql
+     ```
+   - Enter your MySQL root password when prompted
+4. Verify the deployment:
+   - Log back into MySQL:
+     ```
+     mysql -u root -p
+     ```
+   - Select the database:
+     ```sql
+     USE ott_management;
+     ```
+   - List the tables to ensure they were created:
+     ```sql
+     SHOW TABLES;
+     ```
+   - You should see a list of tables including Users, Content, Subscriptions, etc.
+### Accessing the Database
+To interact with the deployed database, you can:
+- Use MySQL command-line client
+- Connect using a MySQL GUI tool like MySQL Workbench
+- Use a programming language with MySQL connectors (e.g., Python with mysql-connector-python)
+### Note
+This deployment sets up only the database structure. To build a complete application, you'll need to develop additional components (backend, frontend) that interact with this database.
 ## Feedback
 If you have any feedback, please reach out to us at muthyapwaryashraj2525@gmail.com. 
 #### ❗If you find this repository helpful, please consider giving it a ⭐. Thanks! ❗
