@@ -72,8 +72,6 @@ To interact with the deployed database, you can:
 - Use MySQL command-line client
 - Connect using a MySQL GUI tool like MySQL Workbench
 - Use a programming language with MySQL connectors (e.g., Python with mysql-connector-python)
-### Note
-This deployment sets up only the database structure. To build a complete application, you'll need to develop additional components (backend, frontend) that interact with this database.
 ## Feedback
 If you have any feedback, please reach out to us at muthyapwaryashraj2525@gmail.com. 
 #### ❗If you find this repository helpful, please consider giving it a ⭐. Thanks! ❗
