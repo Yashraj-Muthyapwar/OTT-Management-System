@@ -2,6 +2,12 @@
 
 <p align="center"><i>Streamline OTT platform operations with powerful data management and analytics</i></p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/last%20commit-today-blue" alt="last commit">
+  <img src="https://img.shields.io/badge/mysql-100%25-yellowgreen" alt="mysql">
+  <img src="https://img.shields.io/badge/languages-1-blue" alt="languages">
+</p>
+
 <p align="center"><i>Built with the tools and technologies:</i></p>
 
 <p align="center">
@@ -15,19 +21,79 @@
 
 # 🎬 OTT Management System
 
-This project demonstrates a complete OTT (Over-the-Top) platform management system, integrating data storage, querying, and interactive dashboards for efficient content management, subscriber insights, and performance tracking.
+The OTT Management System is a robust backend solution designed to manage Over-The-Top (OTT) platform operations including user data, content catalogs, subscriptions, and recommendations, all supported by a structured relational database.
 
 ## 📖 Overview
 
-The OTT-Management-System streamlines the operational side of OTT platforms, enabling data-driven decisions through intuitive interfaces, backend data handling, and real-time content updates.
+This project implements a MySQL-backed database system tailored for OTT services, ensuring secure, scalable, and efficient management of platform operations. The system models critical components such as users, content, subscriptions, payments, and personalized user experiences.
 
-### 💡 Why OTT-Management-System?
+## 🗂 Entity Relationship Diagram
 
-- 🎥 **Content Catalog Management:** Manage movies, shows, and user preferences efficiently using a structured relational database (MySQL).  
-- 📊 **Data Analytics Integration:** Gain actionable insights through visual reports and interactive dashboards powered by Streamlit.  
-- 🗂 **Subscriber and Usage Tracking:** Monitor subscriptions, viewership patterns, and performance metrics with ease.  
-- 🔒 **Reliable Backend Architecture:** Built with Python and MySQL for stability, scalability, and ease of maintenance.  
-- ⚙️ **End-to-End Data Workflow:** Supports CRUD operations, querying, reporting, and real-time user interaction.  
+![OTT_ERD](https://github.com/Yashraj-Muthyapwar/OTT-Management-System/assets/76719689/7984f1b7-3951-49ba-86ab-6c6039964983)
+
+## 🗄 Database Schema Includes:
+- Users
+- Content
+- Plans
+- Subscriptions
+- Payments
+- Watchlist
+- Watch History
+- Devices
+- Cast
+- Recommendations
+
+## ✨ Key Features
+- **User Management:** Comprehensive profiles with subscription tracking
+- **Content Catalog:** Organized content library with metadata
+- **Flexible Plans:** Subscription management with various options
+- **Payment Integration:** Secure payment tracking
+- **Personalized Experience:** Watch history and recommendation system
+- **Multi-Device Support:** Manage devices linked to user accounts
+- **Watchlist Functionality:** Save content for later viewing
+
+## 🚀 Deployment Instructions
+
+### 1. Clone or Download Project
+```bash
+git clone https://github.com/Yashraj-Muthyapwar/OTT-Management-System.git
+cd OTT-Management-System
+```
+
+### 2. Setup Database
+```bash
+mysql -u root -p
+```
+```sql
+CREATE DATABASE ott_management;
+USE ott_management;
+```
+Exit MySQL, then import schema:
+```bash
+mysql -u root -p ott_management < OTT_Management.sql
+```
+
+### 3. Verify Deployment
+```bash
+mysql -u root -p
+USE ott_management;
+SHOW TABLES;
+```
+You should see tables for Users, Content, Subscriptions, etc.
+
+## 💻 Accessing the Database
+- MySQL CLI
+- MySQL Workbench or GUI tools
+- Application layer (e.g., Python, Streamlit, etc.)
+
+## 💡 Future Enhancements
+- Role-based authentication
+- Advanced recommendation engine
+- Integration with real-world OTT APIs
+- Streamlit dashboard for admin control
+
+## 📬 Feedback
+If you find this helpful, please ⭐ the repo! For questions, contact: muthyapwaryashraj2525@gmail.com
 
 ---
-
+Built with ❤️ for scalable OTT data management.
