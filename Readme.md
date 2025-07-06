@@ -87,7 +87,7 @@ You should see tables for Users, Content, Subscriptions, etc.
 - Streamlit dashboard for admin control
 
 ## 📬 Feedback
-If you find this helpful, please ⭐ the repo! For questions, contact: muthyapwaryashraj2525@gmail.com
+If you find this helpful, please ⭐ the repo! Contributions welcome.
 
 ---
 Built with ❤️ for scalable OTT data management.
