@@ -2,12 +2,6 @@
 
 <p align="center"><i>Streamline OTT platform operations with powerful data management and analytics</i></p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/last%20commit-today-blue" alt="last commit">
-  <img src="https://img.shields.io/badge/python-100%25-yellowgreen" alt="python">
-  <img src="https://img.shields.io/badge/languages-1-blue" alt="languages">
-</p>
-
 <p align="center"><i>Built with the tools and technologies:</i></p>
 
 <p align="center">
