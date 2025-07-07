@@ -82,5 +82,4 @@ You should see tables for Users, Content, Subscriptions, etc.
 If you find this repository helpful, please consider giving it a ⭐. Thanks!
 
 ---
-
 Contributions welcome. Built with ❤️ for scalable OTT data management.
