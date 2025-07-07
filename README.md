@@ -47,50 +47,31 @@ The system comprises the following key entities:
 
 ## 🚀 Deployment Instructions
 ### 1. Clone or Download Project
-   - **Option A:** Clone the repository (if you have Git installed):
-     ```
-     git clone https://github.com/Yashraj-Muthyapwar/OTT-Management-System.git
-     cd OTT-Management-System
-     ```
-   - **Option B:** Download the SQL file directly from the GitHub repository
+   ```bash
+git clone https://github.com/Yashraj-Muthyapwar/OTT-Management-System.git
+cd OTT-Management-System
+```
      
-### 2. Set up the database:
-   - Open a terminal or command prompt
-   - Log in to MySQL:
-     ```
-     mysql -u root -p
-     ```
-     (Enter your MySQL root password when prompted)
-   - Create the database:
-     ```sql
-     CREATE DATABASE ott_management;
-     USE ott_management;
-     ```
-   - Exit MySQL:
-     ```
-     exit;
-     ```
-### 3. Import the database schema:
-   - In the terminal, navigate to the directory containing OTT_Management.sql
-   - Run the following command:
-     ```
-     mysql -u root -p ott_management < OTT_Management.sql
-     ```
-   - Enter your MySQL root password when prompted
-### 4. Verify the deployment:
-   - Log back into MySQL:
-     ```
-     mysql -u root -p
-     ```
-   - Select the database:
-     ```sql
-     USE ott_management;
-     ```
-   - List the tables to ensure they were created:
-     ```sql
-     SHOW TABLES;
-     ```
-   - You should see a list of tables including Users, Content, Subscriptions, etc.
+### 2. Setup Database
+```bash
+mysql -u root -p
+```
+```sql
+CREATE DATABASE ott_management;
+USE ott_management;
+```
+Exit MySQL, then import schema:
+```bash
+mysql -u root -p ott_management < OTT_Management.sql
+```
+
+### 3. Verify Deployment
+```bash
+mysql -u root -p
+USE ott_management;
+SHOW TABLES;
+```
+You should see tables for Users, Content, Subscriptions, etc.
      
 ## 💻 Accessing the Database
 - Use MySQL command-line client
@@ -100,4 +81,4 @@ The system comprises the following key entities:
 ## 📬 Feedback
 If you find this repository helpful, please consider giving it a ⭐. Thanks!
 ---
-Built with ❤️ for scalable OTT data management.
+Contributions welcome. Built with ❤️ for scalable OTT data management.
